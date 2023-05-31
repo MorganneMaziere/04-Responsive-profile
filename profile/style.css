@@ -1,0 +1,133 @@
+body{
+	text-align: center;
+	color: rgb(50, 50, 50);
+	border: 5% solid #7D6E83;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	line-height: auto;
+	letter-spacing: 1px;
+	background-image: url(soleil_couchant.jpeg);
+	 background-size: auto 100%;
+	margin: auto;
+	font-weight: normal;
+}
+
+h1{
+	border: 0px solid grey;
+	text-align: center;
+	margin: 2%;
+	border-radius: 30%;
+	color: #23637e;
+	padding: 2%;
+	font-size: 220%;
+}
+
+div	{
+	text-align: center;
+	margin:20px 20px;
+	font: monospace;
+  padding: 15px;
+}
+
+img	{
+	width: 250px;
+	height: 250px;
+	border-radius: 20%;
+	display: block;
+	margin: auto;
+	box-shadow: 5px 5px 3px grey;
+
+}
+a {
+	align-content: center;
+	text-decoration: none;
+	color: #647E68;
+}
+
+a:hover {
+	color: rgb(205, 107, 37);
+}
+
+.container{
+	border: 0px solid #F8EDE3;
+	margin: 8% 8%;
+	box-shadow: 5px 5px 6px lightgrey;
+	background-color: #F5EDDC;
+	border-radius: 5%;
+}
+
+#app{
+  padding: 10px 200px;
+}
+
+.list-inline{
+	display: inline-block;
+}
+
+#topnav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #F5EDDC;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+.nav-link {
+  display: inline-block;
+  width: 100px;
+  height: 55px;
+  color: #23637e;
+  text-align: center;
+  line-height: 55px;
+  text-decoration: none;
+}
+
+.nav-option{
+  display: inline-block;
+  height: 55px;
+  color: #23637e;
+  text-align: center;
+  line-height: 55px;
+  text-decoration: none;
+}
+
+#logo {
+  width: 120px;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 15px;
+}
+
+#about {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+}
+
+.row {
+  display: flex;
+  padding: 10px;
+}
+
+.col {
+  flex: 1;
+  display: inline-block;
+}
+
+li {
+  text-align: left;
+}
+
+.fa-brands fa-linkedin {
+  width: 40px;
+}
